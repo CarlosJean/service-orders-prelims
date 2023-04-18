@@ -1,0 +1,50 @@
+Casos de uso
+
+1. Login 
+
+Todos los usuarios deben loguearse.
+
+2 Crear una orden de servicio
+
+Un miembro del departamento Rhodeon o un técnico:
+
+	2.1 Llena el formulario de la solicitud de orden de servicio.
+	2.2 Selecciona la fecha y hora de compromiso para brindar el servicio.
+	2.3 Selecciona un técnico que esté disponible para la fecha y hora seleccionada en caso de que el usuario no sea un técnico. Si es un técnico se seleccionará el nombre del usuario automáticamente.
+	2.4 Selecciona el departamento al cual se le dará servicios.
+	2.5 Selecciona el servicio que se brindará. *Un técnico puede brindar varios tipos de servicio*.
+	2.6 LLenar el campo "Requerido por".
+	2.7 Llenar campo de problema.
+	2.8 Llenar el campo de observaciones.
+	2.9 La solicitud se enviará al gerente o al supervisor del departamento de mantenimiento y lo aprobará o rechazará.
+	2.10 El técnico asignado llenará el campo de informe técnico.
+
+
+3. Gestión de materiales
+
+	3.1 El técnico, supervisor y gerente de departamento de mantenimiento podrá solicitar materiales de una orden desde la vista de "Órdenes de servicios" dando click a un botón que estará en la fila de la tablita de la vista.
+	3.2 El técnico agregará al listado los artículos que se necesitan para dar el servicio.
+	3.3 El técnico podrá ingresar un comentario.
+	3.4 El encargado de almacén aprueba o rechaza la solicitud de materiales.
+
+
+
+
+Observaciones
+
+Crear orden der servicio
+
+¿A quienes se le dará servicios?¿Clientes externos o clientes internos (empleados) dentro de la misma compañía DRL Manufacturing?
+¿Un técnico puede brindar varios servicios o un solo servicio en específico?
+¿En qué momento se indicará el informe técnico?
+¿Un usuario que no sea técnico puede crear una orden?
+El "Requerido por" debería ser un campo abierto.
+	
+
+Gestión de materiales
+
+¿Para qué el campo de nombre? Debería salir información relevante de la orden de servicio y esta no se podrá modificar desde la vista de gestión de materiales.
+¿Cuáles usuarios pueden realizar solicitud de materiales?
+¿Cuál es la diferencia entre el rol de supervisor y gerente de mantenimiento?
+¿Para qué es el campo Tipo de ajuste? Dentro de la vista de agregar artículos.
+¿Para qué se utilizará el campo Cantidad final de la vista de agregar artículos?
